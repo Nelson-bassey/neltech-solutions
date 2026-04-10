@@ -331,6 +331,7 @@ input, textarea, select {
     font-size: var(--text-xl);
     font-weight: 800;
     /* color: var(--text-light); */
+    fill: var(--accent-dark);
 }
 
 .logo-icon img {
@@ -338,7 +339,8 @@ input, textarea, select {
     height: 100%;
     object-fit: contain;
     background-attachment: var(--accent-dark);
-    color: var(--accent-dark);
+    /* color: var(--accent-dark); */
+    fill: var(--accent-dark)
 }
 
 .logo-text {
