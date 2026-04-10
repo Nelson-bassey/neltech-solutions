@@ -1777,7 +1777,7 @@ input, textarea, select {
         height: calc(100vh - 70px);
         background: var(--background-alt);
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: flex-start;
         padding-top: var(--space-10);
         gap: var(--space-6);
