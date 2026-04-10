@@ -333,6 +333,14 @@ input, textarea, select {
     /* color: var(--text-light); */
 }
 
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-attachment: var(--accent-dark);
+    color: var(--accent-dark);
+}
+
 .logo-text {
     font-size: var(--text-xl);
     font-weight: 700;
@@ -1595,9 +1603,9 @@ input, textarea, select {
     margin-bottom: var(--space-4);
 }
 
-.footer-logo .logo-icon {
+/* .footer-logo .logo-icon {
     background: var(--gradient-primary);
-}
+} */
 
 .footer-logo .logo-text {
     color: var(--text-light);
@@ -1613,6 +1621,7 @@ input, textarea, select {
 .footer-social {
     display: flex;
     gap: var(--space-3);
+    align-self: left;
 }
 
 .footer-social a {
@@ -1637,6 +1646,7 @@ input, textarea, select {
     font-size: var(--text-lg);
     font-weight: 700;
     margin-bottom: var(--space-4);
+    text-align: left;
 }
 
 .footer-links ul,
@@ -1644,6 +1654,7 @@ input, textarea, select {
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+    text-align: left;
 }
 
 .footer-links a,
