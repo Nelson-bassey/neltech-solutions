@@ -396,7 +396,7 @@ input, textarea, select {
 }
 
 .nav-cta {
-    display: flex;
+    display: ;
     align-items: center;
     gap: var(--space-2);
     padding: var(--space-3) var(--space-5);
@@ -1787,7 +1787,7 @@ input, textarea, select {
         top: 70px;
         left: 0;
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(70vh - 70px);
         background: var(--background-alt);
         flex-direction: column;
         align-items: left;
@@ -1887,7 +1887,7 @@ input, textarea, select {
     }
     
     .footer-social {
-        justify-content: center;
+        justify-content: left;
     }
     
     .footer-bottom {
