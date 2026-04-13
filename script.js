@@ -371,7 +371,7 @@ function initContactForm() {
         }
         
         // Validate message
-        if (message.length < 10) {
+        if (message.length < 15) {
             showError('messageError', 'Please enter a message (at least 10 characters)');
             isValid = false;
         }
