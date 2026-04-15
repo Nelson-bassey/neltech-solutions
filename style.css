@@ -1797,7 +1797,6 @@ input, textarea, select {
         transform: translateX(-100%);
         transition: transform var(--transition-base);
     }
-    
     .nav-menu.active {
         transform: translateX(0);
     }
